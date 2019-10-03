@@ -63,4 +63,101 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */	
+
+.boldS{
+	font-family:'bangers';
+	font-size:30px;
+	margin-bottom:2%;
+}
+.bold{
+	font-family:'bangers'; 
+	font-size:22px;
+	margin:0px 0px 15px 0px;
+}
+
+.navigation{
+	display:flex;
+	justify-content: space-evenly;
+	margin:22px 0px 0px 0px;
+}
+
+img.services-header-img{
+	position:relative;
+	left:7.6%;
+	width:85%;
+}
+
+.services{
+	margin:15px 100px 30px 100px;
+	margin-bottom:7%;
+	margin-top:2%;
+	border-bottom:2px solid black;
+	padding-bottom:3%;
+}
+
+.flex-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	height:750px;
+	margin-bottom:2%;
+}
+.flex-child{
+	box-size:border-box;
+	height:220px;
+	width:39%;
+	background-color:whitesmoke;
+	padding:2%;
+	border:2px solid black;
+}
+/* .midOne , .midTwo , .midThree {
+	margin:10px;
+	display:flex;
+	justify-content:space-evenly;
+	background-color:lightgray;
+} */
+
+	
+.learn{
+	box-size:border-box;
+	margin:20px 320px 0px 0px;
+	background-color:white;
+	padding:0px 0px 0px 37px;
+	border:2px solid black;
+}
+ul{
+	margin-left:20px;
+	margin-top:20px;
+	list-style: disc;
+}
+
+li{
+	margin-top:7px;
+}
+
+.footinfo{
+	display:flex;
+	justify-content:space-between;
+	height:20%;
+	border-top:2px solid black;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+.services-info-img{
+	height:115%;
+}
+
+.foot-child{
+	width:45%;
+	margin-bottom:5%;
+	margin-top:2%;
+	
+	padding-top:4%;
+}
+
+.copyright{
+	display:flex;
+	justify-content: center;
+}
